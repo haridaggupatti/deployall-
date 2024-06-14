@@ -1,0 +1,32 @@
+.input_box1{
+    height: 500px;
+    width: 799px;
+    font-size: 1rem;
+    padding-left: 3px;
+}
+
+.input_box2{
+    height: 70px;
+    width: 799px;
+    font-size: 1rem;
+    padding-left: 3px;
+    margin-top: 20px;
+}
+
+
+.resumeInput button{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: rgb(200, 200, 232);
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    left: 700px;
+}
+
+.resumeInput button:hover{
+    color: white;
+    background-color: rgb(17, 17, 54);
+}

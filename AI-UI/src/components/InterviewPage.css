@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.interview-box{
+    border: 1px solid transparent;
+    height: 570px;
+    width: 800px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 70px;
+    left: 350px;
+
+}
+
+#input1{
+    /* height: 570px; */
+    /* width: 799px;  */
+    background-color: black;
+    padding-bottom : 500px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.inp-box{
+    display: flex;
+
+}
+
+.paragra{
+    height: 570px;
+    width: 799px;
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.inp-box button{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: rgb(200, 200, 232);
+    color: black;
+    font-weight: 700;
+}
+
+.inp-box button:hover{
+    color: white;
+    background-color: rgb(17, 17, 54);
+}
+
+.input_box{
+    margin-top: 10px;
+    height: 80px;
+    width: 799px;
+    font-size: 1rem;
+    padding-left: 3px;
+}
+
+
+#started{
+    margin-top: 20px;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(17, 17, 54);
+    position: absolute;
+    left: 700px;
+}
+
+#upload_resume{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: rgb(4, 2, 28);
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    left: 90%;
+    color: white;
+    text-decoration: none;
+}
+
+.paragra1{
+    height: 570px;
+    width: 799px;
+    display: flex;
+    background-color: fffffff;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+
+.input_box_textarea{
+    height: 700px;
+    width: 799px;
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    overflow: auto;
+    left:10px;
+    background-color: #ffffff;
+}
